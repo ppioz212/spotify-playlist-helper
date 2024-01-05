@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="Edited localhost port number" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ppioz212&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9bfbda01-cf26-489f-8556-db03449419fa" />
+        <option name="url" value="https://github.com/ppioz212/spotify-playlist-generator.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2VrW65kOKsHA582mZiisRWQtjLj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adi/repos/spotify-playlist-generator&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.SpotifyApplication">
+    <configuration name="SpotifyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.SpotifyApplication" />
+      <module name="spotifyplaylistcompiler.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.asuresh.spotifyplaylistcompiler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.utils.Test" />
+      <module name="spotifyplaylistcompiler.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.asuresh.spotifyplaylistcompiler.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.asuresh.spotifyplaylistcompiler.dao.DaoTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.asuresh.spotifyplaylistcompiler'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.asuresh.spotifyplaylistcompiler.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'com.asuresh.spotifyplaylistcompiler'" />
+        <item itemvalue="Gradle.DaoTests" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="" />
+      <created>1695594503628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695594503628</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created endpoint in controller to generate and return all user's playlists. PlaylistDTO updated to contain likedSongs boolean and List of playlists to use.">
+      <option name="closed" value="true" />
+      <created>1696652647137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696652647137</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added getAlbum endpoint and updated DTO to accept a list of playlists to use">
+      <option name="closed" value="true" />
+      <created>1696910456608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696910456608</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated location">
+      <option name="closed" value="true" />
+      <created>1696995511931</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696995511931</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated album object and now produces album artists">
+      <option name="closed" value="true" />
+      <created>1697058710006</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697058710006</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Minor fix to /generatePlaylist endpoint">
+      <option name="closed" value="true" />
+      <created>1697058981228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697058981228</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test">
+      <option name="closed" value="true" />
+      <created>1697156251634</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697156251634</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Some stuff added and cleaned up">
+      <option name="closed" value="true" />
+      <created>1697171093499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697171093499</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Got jdbc set up for SQL connections and edited springboot set up to use it in application. Some organization. More to come">
+      <option name="closed" value="true" />
+      <created>1697311859460</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697311859460</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Got initial db connection set up for albums and playlists. Re-organized slightly. More to come">
+      <option name="closed" value="true" />
+      <created>1697324642166</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697324642166</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Reorganization">
+      <option name="closed" value="true" />
+      <created>1697325080206</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697325080206</updated>
+    </task>
+    <task id="LOCAL-00016" summary="More Reorganization/clean up">
+      <option name="closed" value="true" />
+      <created>1697325829576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697325829576</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Small changes">
+      <option name="closed" value="true" />
+      <created>1697326252466</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697326252466</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Clean up a little">
+      <option name="closed" value="true" />
+      <created>1697327674285</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697327674285</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added DAO for playlist and album track intermediary tables and track table.">
+      <option name="closed" value="true" />
+      <created>1697344951849</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697344951849</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Track Dao incorporates liked_song boolean, along with database.">
+      <option name="closed" value="true" />
+      <created>1697391989792</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697391989793</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Working fine, initial additions for a track_feature request API">
+      <option name="closed" value="true" />
+      <created>1697404832858</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697404832858</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Extra options added for track_features api hit, but no issues with regular workings yet">
+      <option name="closed" value="true" />
+      <created>1697409129600</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697409129600</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Main functions working properly. Extra discrepancies with get track features api call. SQL insert working">
+      <option name="closed" value="true" />
+      <created>1697508725716</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697508725716</updated>
+    </task>
+    <task id="LOCAL-00024" summary="factored out all Get requests, and fixed getTrackFeature logic finally.">
+      <option name="closed" value="true" />
+      <created>1697520021132</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1697520021132</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Factored out all postRequests into a separate collective function">
+      <option name="closed" value="true" />
+      <created>1697521861013</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1697521861013</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Cleaned up logic for checking whether new url exists for more data to be collected. Further factored.">
+      <option name="closed" value="true" />
+      <created>1697522612808</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1697522612809</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Minor Changes">
+      <option name="closed" value="true" />
+      <created>1697523290902</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697523290902</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Refactored controller, made network class abstract">
+      <option name="closed" value="true" />
+      <created>1697756567360</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1697756567360</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Some cleanup">
+      <option name="closed" value="true" />
+      <created>1697758401294</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1697758401294</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Cleaned up and fixed SQL connection on DAOs">
+      <option name="closed" value="true" />
+      <created>1697768594173</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1697768594173</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added userId to all objects">
+      <option name="closed" value="true" />
+      <created>1697772700217</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1697772700218</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated interfaces">
+      <option name="closed" value="true" />
+      <created>1697780015584</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1697780015584</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated classes to match new interface ideas">
+      <option name="closed" value="true" />
+      <created>1697780461341</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1697780461341</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Minor edits and incorporated user_id into each endpoint thus far.">
+      <option name="closed" value="true" />
+      <created>1698108893046</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1698108893046</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Minor edits">
+      <option name="closed" value="true" />
+      <created>1698109412950</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1698109412951</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added user_id to DB and playlistDao">
+      <option name="closed" value="true" />
+      <created>1698116864985</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1698116864985</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Created extensive PlaylistModel and updated DAOs slightly">
+      <option name="closed" value="true" />
+      <created>1698185445407</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1698185445407</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Changed DAO functionality slightly, upgraded playlist mapping">
+      <option name="closed" value="true" />
+      <created>1698203032350</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1698203032350</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Final update to playlist object">
+      <option name="closed" value="true" />
+      <created>1698203199585</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1698203199585</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1698203223149</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1698203223149</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added basic query from Spotify for initial playlist and album pull">
+      <option name="closed" value="true" />
+      <created>1698204497712</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1698204497712</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Added getMethods for albums and playlists. Built out query for final playlist tracks.">
+      <option name="closed" value="true" />
+      <created>1698300282607</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1698300282607</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Some restructuring, as well as added userDao methods for checking and created enum">
+      <option name="closed" value="true" />
+      <created>1698376699746</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1698376699746</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Small change">
+      <option name="closed" value="true" />
+      <created>1698376796084</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1698376796084</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added database logic for playlists and albums initially">
+      <option name="closed" value="true" />
+      <created>1698641928852</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1698641928852</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added user logic to all Daos. Tracks Compiled API created. Generation depends on sql only. Added logic to check whether data persisted completely or not">
+      <option name="closed" value="true" />
+      <created>1698727448052</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1698727448052</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Implemented Dependancy Injection for database connection">
+      <option name="closed" value="true" />
+      <created>1698798693172</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1698798693172</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Minor Edits">
+      <option name="closed" value="true" />
+      <created>1698802806571</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1698802806571</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added user_id link to playlist_link and album_link. Added timestamp logic when tracks are updated">
+      <option name="closed" value="true" />
+      <created>1698803809322</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1698803809322</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Minor qol changes">
+      <option name="closed" value="true" />
+      <created>1698809553047</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1698809553052</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Added userId header parameter to all methods. Removed global User variable. Minor model changes as well as cleanup">
+      <option name="closed" value="true" />
+      <created>1698815215812</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1698815215812</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added tempo logic to playlist generation">
+      <option name="closed" value="true" />
+      <created>1700023583787</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1700023583788</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Minor edits">
+      <option name="closed" value="true" />
+      <created>1701746585897</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1701746585898</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Edited localhost port number">
+      <option name="closed" value="true" />
+      <created>1704482091637</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1704482091637</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Cleaned up and fixed SQL connection on DAOs" />
+    <MESSAGE value="Added userId to all objects" />
+    <MESSAGE value="Updated interfaces" />
+    <MESSAGE value="Updated classes to match new interface ideas" />
+    <MESSAGE value="Minor edits and incorporated user_id into each endpoint thus far." />
+    <MESSAGE value="Added user_id to DB and playlistDao" />
+    <MESSAGE value="Created extensive PlaylistModel and updated DAOs slightly" />
+    <MESSAGE value="Changed DAO functionality slightly, upgraded playlist mapping" />
+    <MESSAGE value="Final update to playlist object" />
+    <MESSAGE value="Fix" />
+    <MESSAGE value="Added basic query from Spotify for initial playlist and album pull" />
+    <MESSAGE value="Added getMethods for albums and playlists. Built out query for final playlist tracks." />
+    <MESSAGE value="Some restructuring, as well as added userDao methods for checking and created enum" />
+    <MESSAGE value="Small change" />
+    <MESSAGE value="Added database logic for playlists and albums initially" />
+    <MESSAGE value="Added user logic to all Daos. Tracks Compiled API created. Generation depends on sql only. Added logic to check whether data persisted completely or not" />
+    <MESSAGE value="Implemented Dependancy Injection for database connection" />
+    <MESSAGE value="Minor Edits" />
+    <MESSAGE value="Added user_id link to playlist_link and album_link. Added timestamp logic when tracks are updated" />
+    <MESSAGE value="Minor qol changes" />
+    <MESSAGE value="Added userId header parameter to all methods. Removed global User variable. Minor model changes as well" />
+    <MESSAGE value="Added userId header parameter to all methods. Removed global User variable. Minor model changes as well as cleanup" />
+    <MESSAGE value="Added tempo logic to playlist generation" />
+    <MESSAGE value="Minor edits" />
+    <MESSAGE value="Edited localhost port number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited localhost port number" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <dependency leave-enabled="true" master-id="0" />
+          <properties>
+            <option name="class-filters-enabled" value="true" />
+            <class-filters>
+              <class-filter pattern="com.asuresh.spotifyplaylistcompiler.SpotifyController" />
+            </class-filters>
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
