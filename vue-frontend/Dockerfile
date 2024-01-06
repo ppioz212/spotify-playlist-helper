@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Modify vite.config.js to set server host to 0.0.0.0
-RUN sed -i '/export default defineConfig({/a \  server: {\n    host: '\''0.0.0.0'\''\n  },' vite.config.js
+RUN sed -i '/export default defineConfig({/a \  server: {\n    host: '\''0.0.0.0'\''\n  },' vite.config.ts
 
 # build app for production with minification
 RUN npm run build
