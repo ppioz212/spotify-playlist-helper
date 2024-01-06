@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="Edited localhost port number" />
+    <list default="true" id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="removed docker files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/java-backend/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/java-backend">
       <ProjectState />
     </projectState>
   </component>
@@ -44,6 +50,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="local-test" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -78,31 +89,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/adi/repos/spotify-playlist-generator&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adi/repos/spotify-playlist-helper&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SpotifyApplication">
-    <configuration name="SpotifyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.SpotifyApplication" />
-      <module name="spotifyplaylistcompiler.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.asuresh.spotifyplaylistcompiler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Docker.java-backend/Dockerfile">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.utils.Test" />
       <module name="spotifyplaylistcompiler.main" />
@@ -164,8 +161,34 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="java-backend/Dockerfile TEMP_BUILD_IMAGE" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="gradle5.3.0-jdk-alpine_TEMP_BUILD_IMAGE" />
+          <option name="buildCliOptions" value="--target TEMP_BUILD_IMAGE" />
+          <option name="buildKitEnabled" value="true" />
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="java-backend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="java-backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="java-backend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.java-backend/Dockerfile" />
+        <item itemvalue="Docker.java-backend/Dockerfile TEMP_BUILD_IMAGE" />
         <item itemvalue="Gradle.Tests in 'com.asuresh.spotifyplaylistcompiler'" />
         <item itemvalue="Gradle.DaoTests" />
         <item itemvalue="Application.Test" />
@@ -180,46 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695594503628</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Created endpoint in controller to generate and return all user's playlists. PlaylistDTO updated to contain likedSongs boolean and List of playlists to use.">
-      <option name="closed" value="true" />
-      <created>1696652647137</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1696652647137</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added getAlbum endpoint and updated DTO to accept a list of playlists to use">
-      <option name="closed" value="true" />
-      <created>1696910456608</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1696910456608</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Updated location">
-      <option name="closed" value="true" />
-      <created>1696995511931</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1696995511931</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Updated album object and now produces album artists">
-      <option name="closed" value="true" />
-      <created>1697058710006</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1697058710006</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Minor fix to /generatePlaylist endpoint">
-      <option name="closed" value="true" />
-      <created>1697058981228</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1697058981228</updated>
     </task>
     <task id="LOCAL-00011" summary="test">
       <option name="closed" value="true" />
@@ -573,7 +556,47 @@
       <option name="project" value="LOCAL" />
       <updated>1704482091637</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="minor changes to railway and dockerfile">
+      <option name="closed" value="true" />
+      <created>1704502122618</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1704502122619</updated>
+    </task>
+    <task id="LOCAL-00056" summary="small change">
+      <option name="closed" value="true" />
+      <created>1704502223142</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1704502223142</updated>
+    </task>
+    <task id="LOCAL-00057" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1704503339749</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1704503339749</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fixed reference locally">
+      <option name="closed" value="true" />
+      <created>1704503368743</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1704503368743</updated>
+    </task>
+    <task id="LOCAL-00059" summary="removed docker files">
+      <option name="closed" value="true" />
+      <created>1704503768805</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1704503768805</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -596,11 +619,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Cleaned up and fixed SQL connection on DAOs" />
-    <MESSAGE value="Added userId to all objects" />
-    <MESSAGE value="Updated interfaces" />
-    <MESSAGE value="Updated classes to match new interface ideas" />
-    <MESSAGE value="Minor edits and incorporated user_id into each endpoint thus far." />
     <MESSAGE value="Added user_id to DB and playlistDao" />
     <MESSAGE value="Created extensive PlaylistModel and updated DAOs slightly" />
     <MESSAGE value="Changed DAO functionality slightly, upgraded playlist mapping" />
@@ -621,7 +639,12 @@
     <MESSAGE value="Added tempo logic to playlist generation" />
     <MESSAGE value="Minor edits" />
     <MESSAGE value="Edited localhost port number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited localhost port number" />
+    <MESSAGE value="minor changes to railway and dockerfile" />
+    <MESSAGE value="small change" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="fixed reference locally" />
+    <MESSAGE value="removed docker files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed docker files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
