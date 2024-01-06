@@ -17,7 +17,7 @@ COPY . .
 RUN sed -i '/export default defineConfig({/a \  server: {\n    host: '\''0.0.0.0'\''\n  },' vite.config.ts
 
 # build app for production with minification
-RUN npm run build
+RUN npm run build-only
 
 EXPOSE 5173
 
