@@ -55,7 +55,7 @@ public abstract class SpotifyService {
 
     public static Token getAccessTokenAPICall(String generatedCode) throws IOException {
         final ClientConfig config;
-        Reader reader = Files.newBufferedReader(Paths.get("clientconfig.json"));
+        Reader reader = Files.newBufferedReader(Paths.get("java-backend/clientconfig.json"));
         config = gson.fromJson(reader, ClientConfig.class);
         final String redirectUri = "http://localhost:5173";
         String authHeader = config.getClientId() + ":" + config.getSecretClientId();
