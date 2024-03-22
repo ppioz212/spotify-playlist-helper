@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="Edited localhost port number" />
+    <list default="true" id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="updated docker file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vue-frontend/src/main.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/java-backend">
       <ProjectState />
     </projectState>
   </component>
@@ -37,13 +44,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -80,7 +92,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;local-test&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/adi/repos/spotify-playlist-generator&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -89,13 +101,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SpotifyApplication">
-    <configuration name="SpotifyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.SpotifyApplication" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="&amp; " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.utils.Solution" />
       <module name="spotifyplaylistcompiler.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.asuresh.spotifyplaylistcompiler.*" />
+          <option name="PATTERN" value="com.asuresh.spotifyplaylistcompiler.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.utils.Test" />
+    <configuration name="SpotifyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.asuresh.spotifyplaylistcompiler.SpotifyApplication" />
       <module name="spotifyplaylistcompiler.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.asuresh.spotifyplaylistcompiler.services.*" />
+          <option name="PATTERN" value="com.asuresh.spotifyplaylistcompiler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,9 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Gradle.Tests in 'com.asuresh.spotifyplaylistcompiler'" />
         <item itemvalue="Gradle.DaoTests" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SpotifyApplication" />
+        <item itemvalue="Gradle.Tests in 'com.asuresh.spotifyplaylistcompiler'" />
       </list>
     </recent_temporary>
   </component>

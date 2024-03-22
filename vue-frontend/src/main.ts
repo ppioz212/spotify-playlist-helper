@@ -9,9 +9,9 @@ import InputText from "primevue/inputtext";
 import router from "./router";
 import Slider from 'primevue/slider'
 
-import "primevue/resources/themes/saga-blue/theme.css"; //theme
-import "primevue/resources/primevue.min.css"; //core CSS
-import "primeicons/primeicons.css"; //icons
+import "primevue/resources/themes/saga-blue/theme.css";
+import "primevue/resources/primevue.min.css";
+import "primeicons/primeicons.css";
 
 const app = createApp(App);
 const pinia = createPinia();
