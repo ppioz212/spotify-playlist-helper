@@ -7,11 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="updated docker file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vue-frontend/src/main.ts" afterDir="false" />
-    </list>
+    <list default="true" id="5a43fc05-d1cf-4b79-8e4a-6f051bf3d81d" name="Changes" comment="updated docker file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
